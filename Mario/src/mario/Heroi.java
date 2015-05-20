@@ -42,7 +42,7 @@ public class Heroi {
       this.nivel = nivel;
 
       TileSet imagens = nivel.getTilesHeroi();
-
+      System.out.println("Chupa-me o escrotinho");
       //Cria o movimento para o herói
       //movimento = new MovimentoHeroiSuportado(posicaoInicial, velocidadeAndar, tempo);
       movimento = new MovimentoHeroiLivre(posicaoInicial, vectorGravidade, velocidadeAndar, 
